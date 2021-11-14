@@ -1,0 +1,164 @@
+.container {
+  position: relative;
+}
+
+.container .navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  left: 0;
+  height: 70px;
+  background: #008FFF;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+.container .navBar .logo {
+  margin-left: 2.5rem;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #fff;
+}
+
+.container .navBar .links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2.5rem;
+}
+
+.container .navBar .links li {
+  list-style: none;
+  padding-left: 15px;
+}
+
+.container .navBar .links li a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 900;
+  color: #fff;
+}
+
+.container .body {
+  padding-top: 70px;
+  position: relative;
+}
+
+.container .body .begining {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .body .begining img {
+  width: 100%;
+  height: 100%;
+}
+
+.container .body .begining .center {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: 0;
+  height: 210px;
+  border-radius: 20px;
+}
+
+.container .body .begining h1 {
+  width: 60%;
+  padding: 30px 0px;
+  border-radius: 30px;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  background: #008FFF;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+/* ADVICE */
+.container .body .advice {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.container .body .advice .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin-top: 20px;
+  background: #3eff58;
+  border-radius: 20px;
+}
+
+.container .body .advice .card .cardBody {
+  padding: 10px 20px;
+}
+
+.container .body .advice .card .cardBody h4 {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 21px;
+}
+
+.container .body .advice .card .cardBody p {
+  margin: 0;
+  font-size: 16px;
+  font-family: "Rubik", sans-serif;
+}
+
+.container .body .advice .card .cardImage img {
+  width: 160px;
+  height: 150px;
+  padding: 20px 15px 15px 0;
+  border-radius: 0 30px 30px 0;
+}
+
+/* CREDITS */
+.container .credits {
+  background: #008FFF;
+  padding: 20px 0;
+}
+
+.container .credits .cbody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .credits .cbody .names {
+  font-size: 18px;
+  font-family: "Rubik", sans-serif;
+  color: #fff;
+  margin: 0;
+}
+
+.container .credits .cbody .names ol {
+  margin: 5px 0;
+}
+
+.container .credits .cbody .names h5 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.container .credits .cbody .ie {
+  margin-left: 20px;
+}
+
+.container .credits .cbody .ie img:nth-child(1) {
+  width: 130px;
+}
+
+.container .credits .cbody .ie img:nth-child(2) {
+  width: 140px;
+  margin-left: 10px;
+}
